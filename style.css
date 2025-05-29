@@ -50,7 +50,7 @@
   height: 100%;
   border: none;
   background: none;
-  padding-left: 70px;
+  text-align:center;
   border-radius: 14.88px;
 }
 
@@ -71,7 +71,7 @@
   font-weight: 500;
   line-height: 117.5%;
   letter-spacing: -2%;
-  text-align: left;
+  text-align: center;
 }
 
 .search-icon {
@@ -406,8 +406,8 @@
   border: 1.18px solid rgba(28, 29, 32, 0.08);
   border-radius: 9.41px;
   box-shadow: 0px 4.71px 14.12px 0px rgba(28, 29, 32, 0.08);
-  -webkit-backdrop-filter: blur(4.71px);
-          backdrop-filter: blur(4.71px);
+  
+  
   background: rgba(28, 29, 32, 0.35);
   padding: 10px 14px;
   right: 24px;
@@ -1020,21 +1020,7 @@
   flex-direction: column;
 }
 
-.notification {
-  position: absolute;
-  display: flex;
-  align-items: start;
-  justify-content: space-between;
-  border-radius: 13.29px;
-  box-shadow: 0px 18.99px 28.48px 0px rgba(70, 70, 70, 0.1);
-  -webkit-backdrop-filter: blur(30.38px);
-          backdrop-filter: blur(30.38px);
-  background: linear-gradient(225.57deg, rgb(252, 252, 253) -0.957%, rgba(252, 252, 253, 0.6) 100%);
-  padding: 12px;
-  top: 0;
-  right: 155px;
-  z-index: 2;
-}
+
 .notification__container {
   width: 325.64px;
   display: flex;
